@@ -1,0 +1,118 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+.Container{
+    display : flex;
+    height : 100vh;
+    width : 100%;
+    font-family: 'Lato';
+    .image{
+        width : 40%;
+        height : 100%;
+        // background-color: #0093ff;
+        overflow: hidden;
+    }
+    
+    .formContainer{
+        width : 60%;
+        height : 100%;
+        display : flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 15%;
+        .LoginText{
+            font-weight: 900;
+            font-size: 1.8rem;
+        }
+        .LoginTextDetails{
+            padding : 10px 0px 10px 0px;
+            font-weight: 300;
+            color : rgb(0, 0, 0);
+            width : 48%;
+            font-size: 1.1rem;
+        }
+        .Login{
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        .LoginLine{
+            margin : 6px 0px 4px 2px;
+            width : 45px;
+            height : 2px;
+            background-color: #0093ff;
+        }
+        .Logo{
+            position : absolute;
+            right : 27px;
+            top : 40px;
+            width : 7%;
+        }
+        .form{
+            margin : 20px 0px 0px 0px;
+            display : flex;
+            flex-direction: column;
+            width : 100%;
+            input{
+                width : 50%;
+                height : 40px;
+                border : none;
+                border-radius: 5px;
+                background-color: rgba(0, 0, 0, 0.027);
+                padding-left: 20px;
+                margin : 10px 0px 10px 0px;
+                font-size: 0.9rem;
+                color : black;
+                font-weight: 300;
+            }
+            .buttonDiv{
+                .LoginButton{
+                    width : 100px;
+                    height : 35px;
+                    background-color: #0093ff;
+                    border : none;
+                    border-radius: 5px;
+                    color : white;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    &:hover {
+                        cursor : pointer;
+                        background-color: #22a2fd;
+                    }
+                }
+                .ForgotPassword{
+                    border : none;
+                    background-color: transparent;
+                    font-weight: 700;
+                    color : black;
+                    margin-left: 20px;
+                    &:hover {
+                        cursor : pointer;
+                    }
+                }
+            }
+            
+        }
+        .bottomDiv{
+            margin-top: 40px;
+            display : flex;
+            flex-direction: row;
+            font-size: 0.75rem;
+            p{
+                padding : 0px 10px 0px 5px;
+                font-weight: 600; 
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            :nth-child(1){
+                color : rgba(0, 0, 0, 0.657);
+                text-decoration: underline;
+            }
+        }
+    }
+}
