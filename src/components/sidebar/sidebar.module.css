@@ -1,0 +1,38 @@
+.Sidebar {
+  width: 18%;
+  height: 90%;
+  top: 10%;
+  overflow: auto;
+  z-index: 100;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px;
+}
+
+.Sidebar .Dash {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.404);
+  padding: 10px;
+}
+
+.Sidebar .Dash span {
+  letter-spacing: 2px;
+}
+
+.active {
+  color: purple;
+}
+/*# sourceMappingURL=sidebar.module.css.map */

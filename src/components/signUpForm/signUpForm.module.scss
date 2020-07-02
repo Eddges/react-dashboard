@@ -1,0 +1,79 @@
+.signUpForm{
+    display : flex;
+    flex-direction : column;
+    input{
+        width : 50%;
+        height : 40px;
+        border : none;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.027);
+        padding-left: 20px;
+        margin : 10px 0px 10px 0px;
+        font-size: 0.9rem;
+        color : black;
+        font-weight: 300;
+    }
+    .iconDiv{
+        display : flex;
+        padding : 20px 0px 20px 0px;
+        .iconDivChild{
+            padding : 5px 10px 5px 10px;
+            width : 90px;
+            display : flex;
+            flex-direction: column;
+            align-items : center;
+            margin-left : 5px;
+            img{
+                width : 50%;
+            }
+            span{
+                // font-size: 0.7rem;
+                color : rgba(0,0,0,0.7);
+            }
+            &:hover{
+                background-color: #00000015;
+                cursor: pointer;
+            }
+        }
+        .iconDivChildActive{
+            background-color: #00000015;
+        }
+    }
+    .buttonDiv{
+        .LoginButton{
+            width : 100px;
+            height : 35px;
+            background-color: #871d2f;
+            border : none;
+            border-radius: 5px;
+            color : white;
+            font-weight: 600;
+            margin-top: 10px;
+            &:hover {
+                cursor : pointer;
+                background-color: #871d2fe7;
+            }
+        }
+        .ForgotPassword{
+            border : none;
+            background-color: transparent;
+            font-weight: 700;
+            color : black;
+            margin-left: 20px;
+            &:hover {
+                cursor : pointer;
+            }
+        }
+    }
+}
+
+
+@media(max-width : 576px) {
+    .signUpForm{
+        align-items: center;
+        justify-content: center;
+        input{
+            width : 100%;
+        }
+    }
+}

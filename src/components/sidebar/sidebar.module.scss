@@ -1,0 +1,27 @@
+.Sidebar{
+    width : 18%;
+    height : 90%;
+    top : 10%;
+    overflow : auto;
+    // background-color: blue;
+    z-index: 100;
+    position : absolute;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding : 15px;
+    .Dash{
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color : rgba(0, 0, 0, 0.404);
+        padding: 10px;
+        span{
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.active{
+    color : purple;
+}

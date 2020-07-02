@@ -1,0 +1,105 @@
+.signUpForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signUpForm input {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.027);
+  padding-left: 20px;
+  margin: 10px 0px 10px 0px;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 300;
+}
+
+.signUpForm .iconDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px 20px 0px;
+}
+
+.signUpForm .iconDiv .iconDivChild {
+  padding: 5px 10px 5px 10px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+}
+
+.signUpForm .iconDiv .iconDivChild img {
+  width: 50%;
+}
+
+.signUpForm .iconDiv .iconDivChild span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.signUpForm .iconDiv .iconDivChild:hover {
+  background-color: #00000015;
+  cursor: pointer;
+}
+
+.signUpForm .iconDiv .iconDivChildActive {
+  background-color: #00000015;
+}
+
+.signUpForm .buttonDiv .LoginButton {
+  width: 100px;
+  height: 35px;
+  background-color: #871d2f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.signUpForm .buttonDiv .LoginButton:hover {
+  cursor: pointer;
+  background-color: #871d2fe7;
+}
+
+.signUpForm .buttonDiv .ForgotPassword {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  color: black;
+  margin-left: 20px;
+}
+
+.signUpForm .buttonDiv .ForgotPassword:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .signUpForm {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .signUpForm input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=signUpForm.module.css.map */

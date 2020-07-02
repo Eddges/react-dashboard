@@ -1,0 +1,52 @@
+.loginForm{
+    display : flex;
+    flex-direction : column;
+    input{
+        width : 50%;
+        height : 40px;
+        border : none;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.027);
+        padding-left: 20px;
+        margin : 10px 0px 10px 0px;
+        font-size: 0.9rem;
+        color : black;
+        font-weight: 300;
+    }
+    .buttonDiv{
+        .LoginButton{
+            width : 100px;
+            height : 35px;
+            background-color: #871d2f;
+            border : none;
+            border-radius: 5px;
+            color : white;
+            font-weight: 600;
+            margin-top: 10px;
+            &:hover {
+                cursor : pointer;
+                background-color: #871d2fd7;
+            }
+        }
+        .ForgotPassword{
+            border : none;
+            background-color: transparent;
+            font-weight: 700;
+            color : black;
+            margin-left: 20px;
+            &:hover {
+                cursor : pointer;
+            }
+        }
+    }
+}
+
+@media(max-width : 576px) {
+    .loginForm{
+        align-items: center;
+        justify-content: center;
+        input{
+            width : 100%;
+        }
+    }
+}
