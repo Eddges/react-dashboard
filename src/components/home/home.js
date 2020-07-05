@@ -5,6 +5,7 @@ import Badge from '../badge/badge'
 import HackathonCard from '../hackathonCard/hackathonCard'
 import CurrentTopic from '../currentTopic/currentTopic'
 import UpcomingHome from '../upcomingHome/upcomingHome'
+import LeaderboardHome from '../leaderboardHome/leaderboardHome'
 
 class Home extends React.Component {
     render() {
@@ -17,6 +18,20 @@ class Home extends React.Component {
                         label: 'Attended',
                         value: 75
                 }]
+
+        const leaderboard = [{
+            name : 'Peter Baelish',
+            course : 'FullStack Web Development',
+            score : '500xp'
+        }, {
+            name : 'Neddard Stark',
+            course : 'FullStack Web Development',
+            score : '440xp'
+        }, {
+            name : 'Jon Snow',
+            course : 'FullStack Web Development',
+            score : '410xp'
+        }]
 
         return(
             <div className={classes.Home}>
@@ -44,6 +59,11 @@ class Home extends React.Component {
                     </div>
                 </div>
                 
+                <div className={classes.HomeRow3}>
+                    <div className={classes.LeaderboardHome}>
+                        <LeaderboardHome leaderboard={leaderboard} />
+                    </div>
+                </div>
                 
             </div>
         )

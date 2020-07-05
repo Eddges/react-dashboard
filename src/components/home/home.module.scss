@@ -47,5 +47,18 @@
         }
     }
     
+    .HomeRow3{
+        margin-top : 30px;
+        height : 260px;
+        width : 100%;
+        margin-bottom: 40px;
+        .LeaderboardHome{
+            margin-left: 20px;
+            width : 84%;
+            height : 100%;
+            border : solid 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+        }
+    }
     
 }

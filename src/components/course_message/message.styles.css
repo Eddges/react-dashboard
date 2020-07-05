@@ -1,0 +1,103 @@
+
+
+.message_header{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 1em;
+    
+}
+
+.message_header p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-left: 1em;
+    margin-top: 1em;
+    color: black;
+}
+
+.message_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-left: 1em;
+    /* overflow: hidden; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
+    -moz-box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
+    box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
+}
+
+.message_wrapper::-webkit-scrollbar{
+    width:0px
+}
+
+.message_wrapper .message_child{
+    display: flex;
+    height: 70px;
+    width: 350px;
+    /* background-color: aquamarine; */
+
+}
+
+.message_wrapper .message_child .message_icon_area{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.message_wrapper .message_child .message_face_area{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.message_wrapper .message_child .message_face_area .message_description{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: black;
+}
+
+.message_wrapper .message_child .message_face_area .message_message{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 0.8em;
+    color: rgb(31, 31, 250);
+}
+
+.message_wrapper .message_child .message_time_area{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: rgb(68, 64, 64);
+    font-size: 0.8em;
+    font-weight: 800;
+    opacity: 0.5;
+    margin-left: 1em;
+    cursor: pointer;
+
+}
+
+.button_area_message{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    cursor: pointer;
+}

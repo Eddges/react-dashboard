@@ -5,6 +5,7 @@ import {Route, Switch, NavLink} from 'react-router-dom'
 import Schedule from '../schedule/schedule'
 import Announcements from '../announcements/announcements'
 import Dash from '../dash/dash'
+import LoginForm from '../loginForm/loginForm'
 
 class Dashboard extends React.Component{
     render() {
@@ -20,14 +21,16 @@ class Dashboard extends React.Component{
 
 
                     <Switch>
-                        <Route path="/home" exact render={() => <Dash current="overview" />} />
-                        <Route path="/schedule" exact render={() => <Dash current="schedule" />} /> 
-                        <Route path="/announcements" exact render={() => <Dash current='announcements' />} />
-                        <Route path="/profile" exact render={() => <Dash current='profile' />} />
-                        <Route path="/achievements" exact render={() => <Dash current='achievements' />} />
-                        <Route path="/leaderboard" exact render={() => <Dash current='leaderboard' />} />
-                        <Route path="/challenges" exact render={() => <Dash current='challenges' />} />
-                        <Route path="/resources" exact render={() => <Dash current='resources' />} />
+                        {/* <Route  path="/"  component={LoginForm} /> */}
+                        <Route  path="/home"  render={() => <Dash current="overview" />} />
+                        <Route path="/schedule"  render={() => <Dash current="schedule" />} /> 
+                        <Route path="/announcements"  render={() => <Dash current='announcements' />} />
+                        <Route path="/profile"  render={() => <Dash current='profile' />} />
+                        <Route path="/achievements"  render={() => <Dash current='achievements' />} />
+                        <Route path="/leaderboard"  render={() => <Dash current='leaderboard' />} />
+                        <Route path="/challenges"  render={() => <Dash current='challenges' />} />
+                        <Route path="/resources"  render={() => <Dash current='resources' />} />
+                        
                     </Switch>
                 </Layout>
             </div>
