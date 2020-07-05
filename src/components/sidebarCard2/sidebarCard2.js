@@ -12,7 +12,10 @@ class SidebarCard2 extends React.Component {
                     Select
                 </span> */}
                 <ul>
-                    <li><NavLink to="/schedule">Schedule</NavLink></li>
+                    <li >
+                        
+                        <NavLink to="/schedule">Schedule</NavLink>
+                    </li>
                     <li><NavLink to="/announcements">Announcements</NavLink></li>
                     <li><NavLink to="/profile">Profile</NavLink></li>
                     <li><NavLink to="/achievements">Achievements</NavLink></li>
