@@ -1,0 +1,45 @@
+.Donut{
+    width : 100%;
+    height : 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+    // background-color: white;
+    // background-color: #f2f7fe;
+    .DonutChartMain{
+        // // padding : 80px;
+        width : 95%;
+        // height : auto;
+        // // padding : 20px;
+        // margin-top: 10px;
+        // // height : 80%;
+        font-size: 2.2rem;
+        color : rgba(0, 0, 0, 0.746);
+        font-family: 'Lato';
+        font-weight: 400;
+    }
+    .LineDiv{
+        margin-top: 10px;
+        height : 2px;
+        width : 80%;
+        background-color: rgba(0, 0, 0, 0.109);
+    }
+    .Info{
+        padding : 10px;
+        width : 100%;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        .Total{
+            font-weight: 400;
+            .Number{
+                // font-weight: 700;
+                color : rgb(0, 0, 0);
+            }
+        }
+    }
+}
+

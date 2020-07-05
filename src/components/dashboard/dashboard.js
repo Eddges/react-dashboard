@@ -20,6 +20,7 @@ class Dashboard extends React.Component{
 
 
                     <Switch>
+                        <Route path="/home" exact render={() => <Dash current="overview" />} />
                         <Route path="/schedule" exact render={() => <Dash current="schedule" />} /> 
                         <Route path="/announcements" exact render={() => <Dash current='announcements' />} />
                         <Route path="/profile" exact render={() => <Dash current='profile' />} />

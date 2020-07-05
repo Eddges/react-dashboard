@@ -1,0 +1,51 @@
+.Home{
+    width : 100%;
+    height : auto;
+    padding-top : 5%;
+    padding-left : 5%;
+    display : flex;
+    flex-direction: column;
+    // background-color: #0000000c;
+    .HomeRow1{
+        width : 100%;
+        height : 150px;
+        display : flex;
+        align-items: center;
+        // background-color: coral;
+        .Badge{
+            width : 20%;
+            height : 100%;
+            border : solid 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .CurrentTopic{
+            width : 40%;
+            height : 100%;
+            border : solid 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+    }
+    .HomeRow2{
+        margin-top: 30px;
+        height : 260px;
+        display : flex;
+        .Donut{
+            margin-left: 20px;
+            width : 30%;
+            height : 100%;
+            border : solid 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+        }
+        .UpcomingHome{
+            margin-left: 20px;
+            width : 52%;
+            height : 100%;
+            border : solid 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+        }
+    }
+    
+    
+}
