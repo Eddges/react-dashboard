@@ -17,6 +17,7 @@
 }
 
 .SidebarCard2 ul li {
+  display: flex;
   list-style: none;
   width: 100%;
 }

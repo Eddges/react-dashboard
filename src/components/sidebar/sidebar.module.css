@@ -34,5 +34,7 @@
 
 .active {
   color: purple;
+  opacity: 0.5;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=sidebar.module.css.map */
