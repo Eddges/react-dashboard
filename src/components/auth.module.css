@@ -6,6 +6,7 @@
 }
 
 .Container {
+  font-family: 'Lato';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

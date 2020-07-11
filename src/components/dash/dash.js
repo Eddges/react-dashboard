@@ -7,6 +7,7 @@ import Home from '../home/home';
 
 import { Profile } from '../profile/profile.component';
 import { Course } from '../course/course.component';
+import UserProfile from '../userProfile/userProfile';
 
 
 class Dash extends React.Component {
@@ -23,7 +24,8 @@ class Dash extends React.Component {
             curr=<Home />
         }
         else if(this.props.current==='profile'){
-            curr=<Profile />
+            // curr=<Profile />
+            curr=<UserProfile />
         }
         else if(this.props.current==='challenges'){
             curr=<Course />

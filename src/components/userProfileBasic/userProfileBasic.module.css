@@ -1,0 +1,173 @@
+.UserProfileBasic {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.UserProfileBasic .Left {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  border: 1px rgba(0, 0, 0, 0.13) solid;
+}
+
+.UserProfileBasic .Left .Avatar {
+  width: 70%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -webkit-box-shadow: 14px 14px 33px #cccccc,  -14px -14px 33px #ffffff;
+          box-shadow: 14px 14px 33px #cccccc,  -14px -14px 33px #ffffff;
+}
+
+.UserProfileBasic .Left .Avatar img {
+  width: 100%;
+}
+
+.UserProfileBasic .Left .AvatarInfo {
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Name {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Name span {
+  padding-left: 15px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Mail {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9rem;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Mail span {
+  padding-left: 15px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Mail ion-icon {
+  font-size: 1.3rem;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Course {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Course .CourseInfo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.8rem;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Course .CourseInfo span {
+  padding-left: 15px;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Course .CourseInfo ion-icon {
+  font-size: 1.3rem;
+}
+
+.UserProfileBasic .Left .AvatarInfo .Course .ProgressText {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.UserProfileBasic .Right {
+  width: 70%;
+  height: 100%;
+  padding: 15px 15px 15px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.UserProfileBasic .Right .DetailsTitle {
+  font-weight: 700;
+}
+
+.UserProfileBasic .Right .RightHeader {
+  width: 100%;
+}
+
+.UserProfileBasic .Right .RightHeader span {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=userProfileBasic.module.css.map */

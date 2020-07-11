@@ -22,9 +22,9 @@ const Progressbar = ({done}) => {
 	)
 }
 
-export const Progress = () => (
+export const Progress = (props) => (
 	<>
-		<Progressbar done="60"/>
+		<Progressbar done={props.done}/>
 	</>
 );
 	

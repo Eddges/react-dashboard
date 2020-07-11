@@ -8,7 +8,7 @@ export const Course = () => {
         <div className = "parent_course_wrapper">
             <div className = "course_details_wrapper">
                 <h1>Full Stack development</h1>
-                <Progress/>
+                <Progress done="60"/>
             </div>
             <div className = "course_current_information">
                 <Message/>

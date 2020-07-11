@@ -1,0 +1,35 @@
+.Announcements{
+    // background-color: coral;
+    width : 100%;
+    // height : auto;
+    display : flex;
+    flex-direction: column;
+    padding-top: 30px;
+    height : 100%;
+    overflow : auto;
+    .Item{
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        width : 100%;
+        // height : 200px;
+        // background-color: coral;
+        border-top : solid 1px rgba(0, 0, 0, 0.226);
+        margin-top: 10px;
+        // border-radius: 5px;
+        // background-color: green;
+        padding : 20px;
+        .Main{
+            padding : 5px 10px 5px 50px;
+            // background-color: blue;
+            p{
+                font-size: 1rem;
+            }
+        }
+        .Tags{
+            display : flex;
+            align-items: center;
+            padding : 5px 10px 5px 50px;
+        }
+    }
+}

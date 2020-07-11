@@ -1,0 +1,56 @@
+.UserProfile {
+    width : 100%;
+    height : 100%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    .Tabs{
+        width : 90%;
+        height : 50px;
+        // background-color: coral;
+        display : flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        box-shadow:  20px 20px 60px #d9d9d975, 
+             -20px -20px 60px #ffffff;
+        align-items: center;
+        border-radius: 5px;
+        .TabItem{
+            width : 25%;
+            height : 100%;
+            display : flex;
+            align-items: center;
+            justify-content: center;
+            // border-radius: 8px 0px 8px 0px;
+            ion-icon{
+                font-size: 20px;
+                
+            }
+            .TabItemName{
+                font-size: 1rem;
+                margin-left: 10px;
+            }
+            &:hover{
+                cursor: pointer;
+                // background-color: #4b7cf3;
+            }
+        }
+        .TabItemActive{
+            background-color: #4b7cf3;
+            ion-icon{
+                color : white;
+            }
+            .TabItemName{
+                color : white;
+            }
+        }
+    }  
+    .Panel{
+        height : 85%;
+        width : 90%;
+        margin-top: 20px;
+        border-radius: 0px;
+        background: #ffffff;
+        box-shadow : 0px 10px 30px rgba(0, 0, 0, 0.048)
+    }
+}

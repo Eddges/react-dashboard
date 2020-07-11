@@ -1,0 +1,82 @@
+.UserProfile {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.UserProfile .Tabs {
+  width: 90%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 20px;
+  -webkit-box-shadow: 20px 20px 60px #d9d9d975,  -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d9d9d975,  -20px -20px 60px #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.UserProfile .Tabs .TabItem {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.UserProfile .Tabs .TabItem ion-icon {
+  font-size: 20px;
+}
+
+.UserProfile .Tabs .TabItem .TabItemName {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.UserProfile .Tabs .TabItem:hover {
+  cursor: pointer;
+}
+
+.UserProfile .Tabs .TabItemActive {
+  background-color: #4b7cf3;
+}
+
+.UserProfile .Tabs .TabItemActive ion-icon {
+  color: white;
+}
+
+.UserProfile .Tabs .TabItemActive .TabItemName {
+  color: white;
+}
+
+.UserProfile .Panel {
+  height: 85%;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 0px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.048);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.048);
+}
+/*# sourceMappingURL=userProfile.module.css.map */

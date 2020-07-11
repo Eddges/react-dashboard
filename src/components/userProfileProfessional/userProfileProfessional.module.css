@@ -1,0 +1,90 @@
+.UserProfileProfessional {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.UserProfileProfessional .Left {
+  height: 100%;
+  width: 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.UserProfileProfessional .Left .ExperienceCard {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+}
+
+.UserProfileProfessional .Left .CompanyCard {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+  border-radius: 8px;
+}
+
+.UserProfileProfessional .Right {
+  width: 70%;
+  height: 100%;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.UserProfileProfessional .Right .RightRow2 {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.UserProfileProfessional .Right .RightRow2 .RowItem {
+  width: 25%;
+  height: 95%;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+}
+
+.UserProfileProfessional .Right .RightRow2 .RowItemJob {
+  width: 45%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+}
+
+.UserProfileProfessional .Right .SkillsCard {
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.061);
+}
+/*# sourceMappingURL=userProfileProfessional.module.css.map */

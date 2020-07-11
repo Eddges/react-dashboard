@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "userProfileEducation.module.scss"
+    ],
+    "names": [],
+    "file": "userProfileEducation.module.css"
+}

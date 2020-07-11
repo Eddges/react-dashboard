@@ -33,6 +33,23 @@ class Home extends React.Component {
             score : '410xp'
         }]
 
+        const currentTopic = [{
+            topic : 'HTML Components',
+            isActive : false
+        }, {
+            topic : 'CSS Styling',
+            isActive : false
+        }, {
+            topic : 'JS Programming',
+            isActive : true
+        }, {
+            topic : 'DBMS with MongoDB',
+            isActive : false
+        }, {
+            topic : 'Backend with NodeJS',
+            isActive : false
+        }]
+
         return(
             <div className={classes.Home}>
                 <div className={classes.HomeRow1}>
@@ -43,7 +60,7 @@ class Home extends React.Component {
                         <HackathonCard grade="2" />
                     </div>
                     <div className={classes.CurrentTopic}>
-                        <CurrentTopic active={3} />
+                        <CurrentTopic active={5} currentTopic={currentTopic} />
                     </div>
                 </div>
                 
