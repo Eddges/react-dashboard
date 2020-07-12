@@ -4,6 +4,7 @@ import Schedule from '../schedule/schedule';
 import Announcements from '../announcements/announcements';
 import { Profile } from '../profile/profile.component';
 import { Course } from '../course/course.component';
+import {Resource} from '../Resources/resource.component';
 
 class Dash extends React.Component {
     render() {
@@ -20,6 +21,9 @@ class Dash extends React.Component {
         }
         else if(this.props.current==='challenges'){
             curr=<Course />
+        }
+        else if(this.props.current==='resources'){
+            curr=<Resource />
         }
         return(
             <div className={classes.Dash}>
