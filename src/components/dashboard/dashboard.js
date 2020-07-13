@@ -17,10 +17,6 @@ class Dashboard extends React.Component{
                 
                 <Layout>
 
-                    
-
-
-
                     <Switch>
                         
                         <Route  path="/home"  render={() => <Dash current="overview" />} />
