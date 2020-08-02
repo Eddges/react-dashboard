@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=schedule.module.css.map */
+.Schedule {
+  height: 80vh;
+  overflow: auto;
+}
+/*# sourceMappingURL=schedule.module.css.map */

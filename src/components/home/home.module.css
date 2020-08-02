@@ -1,6 +1,6 @@
 .Home {
   width: 100%;
-  height: auto;
+  height: 80vh;
   padding-top: 5%;
   padding-left: 5%;
   display: -webkit-box;
@@ -10,6 +10,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: auto;
 }
 
 .Home .HomeRow1 {

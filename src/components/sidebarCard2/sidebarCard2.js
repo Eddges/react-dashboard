@@ -12,15 +12,15 @@ class SidebarCard2 extends React.Component {
                     Select
                 </span> */}
                 <ul>
-                    <li><NavLink to="/home">Home</NavLink></li>
-                    <li><NavLink to="/schedule">Schedule</NavLink></li>
+                    <li><NavLink to="/home"><ion-icon name="home"></ion-icon>Home</NavLink></li>
+                    <li><NavLink to="/schedule"><ion-icon name="calendar"></ion-icon>Schedule</NavLink></li>
 
-                    <li><NavLink to="/announcements">Announcements</NavLink></li>
-                    <li><NavLink to="/profile">Profile</NavLink></li>
-                    <li><NavLink to="/achievements">Achievements</NavLink></li>
-                    <li><NavLink to="/leaderboard">Leaderboard</NavLink></li>
-                    <li><NavLink to="/challenges">Challenges</NavLink></li>
-                    <li><NavLink to="/resources">Resources</NavLink></li>
+                    <li><NavLink to="/announcements"><ion-icon name="megaphone"></ion-icon>Announcements</NavLink></li>
+                    <li><NavLink to="/profile"><ion-icon name="person"></ion-icon>Profile</NavLink></li>
+                    <li><NavLink to="/achievements"><ion-icon name="ribbon"></ion-icon>Achievements</NavLink></li>
+                    <li><NavLink to="/leaderboard"><ion-icon name="rocket"></ion-icon>Leaderboard</NavLink></li>
+                    <li><NavLink to="/challenges"><ion-icon name="star"></ion-icon>Challenges</NavLink></li>
+                    <li><NavLink to="/resources"><ion-icon name="trail-sign"></ion-icon>Resources</NavLink></li>
                 </ul>
                 {/* <NavLink to="item1">Schedule</NavLink> */}
             </div>

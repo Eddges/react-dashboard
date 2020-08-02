@@ -1,7 +1,6 @@
 .SidebarCard2 {
   width: 100%;
   height: auto;
-  background-color: #ddebff;
   padding: 20px 0px 20px 0px;
 }
 
@@ -22,15 +21,33 @@
 }
 
 .SidebarCard2 ul li a {
-  color: #464b9e;
+  color: #5c6a92;
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 13px 0px 13px 0px;
   padding-left: 20px;
+  font-size: 0.9rem;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  border-radius: 20px;
+  margin: 2px 0px 2px 0px;
 }
 
 .SidebarCard2 ul li a:hover {
   color: #008bfdd5;
+}
+
+.SidebarCard2 ul li a ion-icon {
+  padding: 0px 10px 0px 0px;
+  font-size: 1rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 /*# sourceMappingURL=sidebarCard2.module.css.map */

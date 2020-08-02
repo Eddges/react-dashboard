@@ -1,7 +1,7 @@
 .SidebarCard2{
     width : 100%;
     height : auto;
-    background-color: #ddebff;
+    // background-color: #ddebff;
     padding : 20px 0px 20px 0px;
     // height : 400px;
     ul{
@@ -14,14 +14,29 @@
             width : 100%;
             
             a{
-                color : #464b9e;
+                // color : #464b9e;
+                color : #5c6a92;
                 display : block;
+                display : flex;
+                align-items: center;
                 text-decoration: none;
                 width : 100%;
-                padding : 10px 0px 10px 0px;
+                padding : 13px 0px 13px 0px;
                 padding-left: 20px;
+                font-size: 0.9rem;
+                font-family: 'Open Sans';
+                font-weight: 600;
+                // transition: all 0.3s;
+                border-radius: 20px;
+                margin : 2px 0px 2px 0px;
                 &:hover{
                     color : #008bfdd5;
+                }
+                ion-icon{
+                    padding : 0px 10px 0px 0px;
+                    // color : #01559bd5;
+                    font-size: 1rem;
+                    transition: all 0.2s;
                 }
             }
         }

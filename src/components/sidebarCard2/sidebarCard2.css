@@ -1,5 +1,16 @@
 .active{
     width : 100%;
-    background-color: #4b7cf3;
+    /* background-color: #4b7cf3; */
+    background-color: #335dff;
+    color : white !important;
+    border-radius: 20px;
+    /* padding : 13px 0px 18px 20px !important; */
+    /* padding-left: 20px; */
+    /* transform: translateY(-5px);
+    margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+.active ion-icon{
     color : white !important;
 }

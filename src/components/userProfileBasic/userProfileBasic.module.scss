@@ -1,3 +1,72 @@
+.Container{
+    width : 100%;
+    height : 100%;
+    // display : flex;
+    // flex-direction: column;
+    overflow: auto;
+    .Right{
+        width : 70%;
+        height : 100%;
+        padding : 15px 15px 15px 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .DetailsTitle{
+            font-weight: 700;
+        }
+        .RightHeader{
+            width : 100%;
+            span{
+                // margin-left: 30px;
+                font-size: 2rem;
+            }
+        }
+        .DivHeader{
+            width : 100%;
+            margin-bottom : 20px;
+            display : flex;
+            align-items: center;
+            span{
+                font-size: 1.1rem;
+                font-weight: bold;
+                padding-left: 5px;
+            }
+        }
+        .GenderSelect{
+            width : 150px;
+            height : 32px;
+            // border : solid 1px rgba(0, 0, 0, 0.116);
+            margin-left: 20px;
+        }
+        .DOBPicker{
+            margin-left: 20px;
+        }
+        .InputAddress{
+            margin-left: 20px;
+            width : 60%;
+            border-radius: 2px;
+            border : solid 1px rgba(0, 0, 0, 0.096);
+            // background-color: #f2f7fe;
+            height : 32px;
+            padding-left: 20px;
+        }
+        .SubmitProfileButton{
+            width : 150px;
+            height : 40px;
+            background-color: #4b7cf3;
+            margin-top: 10px;
+            border: none;
+            color : white;
+            border-radius: 3px;
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.116);
+            font-weight: bold;
+            font-size: 0.8rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
 .UserProfileBasic{
     width : 100%;
     height : 100%;
@@ -12,6 +81,19 @@
         align-items: center;
         padding-top : 30px;
         border: 1px rgba(0, 0, 0, 0.13) solid;
+        .BasicEditButton{
+            border : none;
+            background-color: #4b7cf3;
+            color : white;
+            font-weight: 700;
+            border-radius: 3px;
+            height : 40px;
+            width : 70%;
+            margin-top: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
         .Avatar{
             width : 70%;
             height : 150px;
@@ -112,6 +194,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .EditCard{
+            width : 100%;
+            display : flex;
+            .DetailsTitle{
+                width : 20%;
+                text-align: left;
+                padding-left : 1%;
+            }
+        }
         .DetailsTitle{
             font-weight: 700;
         }

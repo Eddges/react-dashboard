@@ -15,7 +15,7 @@
 
 .LeaderboardHome .Top {
   width: 100%;
-  height: 25%;
+  height: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,7 +60,7 @@
 
 .LeaderboardHome .Title {
   width: 100%;
-  padding: 2px 40px 2px 70px;
+  padding: 10px 40px 20px 70px;
   height: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +132,7 @@
 
 .LeaderboardHome .Ranking {
   width: 100%;
-  height: 55%;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

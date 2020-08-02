@@ -1,3 +1,48 @@
+.Container {
+  width: 100%;
+  height: 100%;
+}
+
+.Container .EditCard {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .EditCard span {
+  width: 25%;
+  text-align: left;
+  padding-left: 1%;
+}
+
+.Container .EditCard input {
+  height: 32px;
+  width: 60%;
+  margin-left: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.164);
+  border-radius: 2px;
+  background-color: #4b7bf307;
+  padding-left: 10px;
+}
+
+.Container .SubmitButton {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #4b7cf3;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.Container .SubmitButton:hover {
+  cursor: pointer;
+}
+
 .UserProfileEducation {
   height: 100%;
   width: 100%;
@@ -19,5 +64,37 @@
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.109);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.109);
   margin: 5px;
+}
+
+.UserProfileEducation .EditButton {
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  background-color: #4b7cf3;
+  margin-top: 10px;
+  margin-left: 5px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.335);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.335);
+}
+
+.UserProfileEducation .EditButton:hover {
+  cursor: pointer;
+}
+
+.UserProfileEducation .EditCard {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.UserProfileEducation .EditCard span {
+  width: 25%;
+  text-align: left;
+  padding-left: 1%;
 }
 /*# sourceMappingURL=userProfileEducation.module.css.map */
