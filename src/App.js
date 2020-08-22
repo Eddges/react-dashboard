@@ -11,8 +11,9 @@ class App extends React.Component {
         <BrowserRouter>
           <Dashboard />
           {/* <RouterTest /> */}
+                  {/* <Auth /> */}
+
         </BrowserRouter>
-        {/* <Auth /> */}
       </div>
     )
   }
