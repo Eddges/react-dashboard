@@ -5,9 +5,9 @@
     height: 50px;
     width: 350px;
     background-color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-left: 1em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* margin-left: 1em; */
     
 }
 
@@ -29,11 +29,13 @@
     overflow-y: scroll;
     margin-left: 1em;
     /* overflow: hidden; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     -webkit-box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
     -moz-box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
     box-shadow: 10px 10px 83px -24px rgba(218,233,250,1);
+    border: 1px solid rgb(244, 246, 247);
+    /* margin-bottom: 1em; */
 }
 
 .notification_wrapper::-webkit-scrollbar{

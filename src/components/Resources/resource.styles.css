@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.resource_wrapper {
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-left: 2em; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
