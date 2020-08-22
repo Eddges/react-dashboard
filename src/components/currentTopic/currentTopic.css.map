@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC,YAAY,CAAC;EACvB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EAEZ,UAAU,EAAE,OAAO;CAIpB;;AAEH,AAAA,aAAa,CAAA;EACT,MAAM,EAAG,IAAI;CAEhB",
+    "sources": [
+        "currentTopic.scss"
+    ],
+    "names": [],
+    "file": "currentTopic.css"
+}

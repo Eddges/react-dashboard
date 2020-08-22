@@ -1,0 +1,77 @@
+.CurrentTopic {
+  height: 100%;
+  width: 100%;
+}
+
+.CurrentTopic .Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  background-color: #364d79;
+}
+
+.CurrentTopic .Top .Icon {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.322);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.CurrentTopic .Top .Icon img {
+  width: 50%;
+}
+
+.CurrentTopic .Top span {
+  margin-left: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.CurrentTopic .TopDiv {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.CurrentTopic .TopDiv .Middle {
+  width: 100%;
+  height: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5px;
+}
+
+.CurrentTopic .TopDiv .Middle .Topic {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=currentTopic.module.css.map */

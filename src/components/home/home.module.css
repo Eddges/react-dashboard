@@ -1,0 +1,81 @@
+.Home {
+  width: 100%;
+  height: 80vh;
+  padding-top: 5%;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: auto;
+}
+
+.Home .HomeRow1 {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Home .HomeRow1 .Badge {
+  width: 20%;
+  height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.Home .HomeRow1 .CurrentTopic {
+  width: 40%;
+  height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.Home .HomeRow2 {
+  margin-top: 30px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Home .HomeRow2 .Donut {
+  margin-left: 20px;
+  width: 30%;
+  height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.Home .HomeRow2 .UpcomingHome {
+  margin-left: 20px;
+  width: 52%;
+  height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.Home .HomeRow3 {
+  margin-top: 30px;
+  height: 260px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.Home .HomeRow3 .LeaderboardHome {
+  margin-left: 20px;
+  width: 84%;
+  height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=home.module.css.map */
