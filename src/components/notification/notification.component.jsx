@@ -77,10 +77,7 @@ export class Notification extends Component {
                                              <p className = "notification_time">{reminder.time}</p>
                                         </div>
                                     </div>
-                                   
-                                   
                                 </div>
-
                         )
                     }
                 </div>

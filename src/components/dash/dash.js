@@ -24,7 +24,7 @@ class Dash extends React.Component {
         }
         else if(this.props.current==='profile'){
             // curr=<Profile />
-            curr=<UserProfile />
+            curr=<Profile />
         }
         else if(this.props.current==='challenges'){
             curr=<Course />

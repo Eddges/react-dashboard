@@ -1,5 +1,3 @@
-import { localeData } from "moment"
-
 const profileState = {
     profile : {
         basic : {
