@@ -3,21 +3,21 @@ import { localeData } from "moment"
 const profileState = {
     profile : {
         basic : {
-            name : "Jon Snow",
-            email : "jonsnow@gmail.com",
+            name : "Anurag Singh",
+            email : "anurag@gmail.com",
             course : 'FullStack Web Development',
             gender : 'Male',
             DOJ : '10 Jul, 2020',
-            add1 : 'King\'s room, Winterfell Palace',
-            add2 : 'Kingdom of North, Westeros',
+            add1 : 'Opp Firayal Chowk, Main Road',
+            add2 : 'Ranchi - 834007',
             progress : 70
         },
         professional : {
-            company : 'Night\'s watch',
+            company : 'Amazon',
             experience : '2yr',
-            position : 'King',
-            location : 'Winterfell',
-            job_details : 'Management of Winterfell',
+            position : 'SDE Intern',
+            location : 'Hyderabad',
+            job_details : 'JavaScript engineer',
             skills : ['JavaScript', 'React', 'Linux', 'Python', 'Docker', 'Ansible', 'Kubernetes', 'NodeJS']
         },
         programming : {

@@ -20,15 +20,15 @@ class Home extends React.Component {
                 }]
 
         const leaderboard = [{
-            name : 'Peter Baelish',
+            name : 'Anurag Singh',
             course : 'FullStack Web Development',
             score : '500xp'
         }, {
-            name : 'Neddard Stark',
+            name : 'Aman Kumar',
             course : 'FullStack Web Development',
             score : '440xp'
         }, {
-            name : 'Jon Snow',
+            name : 'Shreya Parasar',
             course : 'FullStack Web Development',
             score : '410xp'
         }]
