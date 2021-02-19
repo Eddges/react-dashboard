@@ -13,7 +13,7 @@ class Dashboard extends React.Component{
     render() {
         return(
             <div className={classes.Dashboard}>
-                <Route  path="/login" exact component={Auth} />
+                <Route  path="/" exact component={Auth} />
                 
                 <Layout>
 

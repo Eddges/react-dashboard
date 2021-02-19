@@ -8,6 +8,7 @@ import Home from '../home/home';
 import { Profile } from '../profile/profile.component';
 import { Course } from '../course/course.component';
 import {Resource} from '../Resources/resource.component';
+import UserProfile from '../userProfile/userProfile';
 
 class Dash extends React.Component {
     render() {
@@ -32,6 +33,9 @@ class Dash extends React.Component {
         }
         else if(this.props.current==='resources'){
             curr=<Resource />
+        }
+        else if(this.props.current==='achievements'){
+            curr=<Profile />
         }
         return(
             <div className={classes.Dash}>
