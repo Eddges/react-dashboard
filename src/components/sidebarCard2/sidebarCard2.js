@@ -18,9 +18,9 @@ class SidebarCard2 extends React.Component {
                     <li><NavLink to="/announcements"><ion-icon name="megaphone"></ion-icon>Announcements</NavLink></li>
                     <li><NavLink to="/profile"><ion-icon name="person"></ion-icon>Profile</NavLink></li>
                     <li><NavLink to="/achievements"><ion-icon name="ribbon"></ion-icon>Achievements</NavLink></li>
-                    <li><NavLink to="/leaderboard"><ion-icon name="rocket"></ion-icon>Leaderboard</NavLink></li>
                     <li><NavLink to="/challenges"><ion-icon name="star"></ion-icon>Challenges</NavLink></li>
                     <li><NavLink to="/resources"><ion-icon name="trail-sign"></ion-icon>Resources</NavLink></li>
+                    <li><NavLink to="/leaderboard"><ion-icon name="rocket"></ion-icon>Leaderboard</NavLink></li>
                 </ul>
                 {/* <NavLink to="item1">Schedule</NavLink> */}
             </div>

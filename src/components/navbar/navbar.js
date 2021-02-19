@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                 </div>
                 <div className={classes.Portal}>
                     <div className={classes.PortalLine}></div>
-                    <span>Portal</span>
+                    <span>Student Portal</span>
                 </div>
                 <div className={classes.EmptyDiv}>
                     <div className={classes.DivLine} ></div>
