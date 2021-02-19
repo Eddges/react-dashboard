@@ -14,22 +14,28 @@ class Dashboard extends React.Component{
         return(
             <div className={classes.Dashboard}>
                 <Route  path="/" exact component={Auth} />
-                
-                <Layout>
+                <Route  path="/:any" exact component={Layout} />
 
-                    <Switch>
-                        
-                        <Route  path="/home"  render={() => <Dash current="overview" />} />
-                        <Route path="/schedule"  render={() => <Dash current="schedule" />} /> 
-                        <Route path="/announcements"  render={() => <Dash current='announcements' />} />
-                        <Route path="/profile"  render={() => <Dash current='profile' />} />
-                        <Route path="/achievements"  render={() => <Dash current='achievements' />} />
-                        <Route path="/leaderboard"  render={() => <Dash current='leaderboard' />} />
-                        <Route path="/challenges"  render={() => <Dash current='challenges' />} />
-                        <Route path="/resources"  render={() => <Dash current='resources' />} />
-                        
-                    </Switch>
-                </Layout>
+                {/* {
+                    !window.location.pathname &&                 
+                    <Layout>
+
+                        <Switch>
+                            
+                            <Route  path="/home"  render={() => <Dash current="overview" />} />
+                            <Route path="/schedule"  render={() => <Dash current="schedule" />} /> 
+                            <Route path="/announcements"  render={() => <Dash current='announcements' />} />
+                            <Route path="/profile"  render={() => <Dash current='profile' />} />
+                            <Route path="/achievements"  render={() => <Dash current='achievements' />} />
+                            <Route path="/leaderboard"  render={() => <Dash current='leaderboard' />} />
+                            <Route path="/challenges"  render={() => <Dash current='challenges' />} />
+                            <Route path="/resources"  render={() => <Dash current='resources' />} />
+                            
+                        </Switch>
+                    </Layout>
+                } */}
+                
+
             </div>
         )
     }
